@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-label="机器人作业流程图">
+  <rect width="980" height="360" fill="#fbfaf7"/>
+  <text x="40" y="42" font-size="24" font-family="Arial, Microsoft YaHei" font-weight="700" fill="#1d2733">机器人作业流程与异常分支</text>
+  <g font-family="Arial, Microsoft YaHei" font-size="14" text-anchor="middle">
+    <g fill="#fff" stroke="#476a9a" stroke-width="2">
+      <rect x="50" y="82" width="120" height="48" rx="8"/><rect x="215" y="82" width="120" height="48" rx="8"/>
+      <rect x="380" y="82" width="120" height="48" rx="8"/><rect x="545" y="82" width="120" height="48" rx="8"/>
+      <rect x="710" y="82" width="120" height="48" rx="8"/>
+      <rect x="380" y="205" width="120" height="48" rx="8" stroke="#b35d3b"/>
+      <rect x="545" y="205" width="120" height="48" rx="8" stroke="#b35d3b"/>
+    </g>
+    <text x="110" y="111">规划搜索</text><text x="275" y="111">导航到区域</text><text x="440" y="111">识别确认</text><text x="605" y="111">抓取放置</text><text x="770" y="111">完成反馈</text>
+    <text x="440" y="234">识别不确定</text><text x="605" y="234">抓取失败</text>
+    <g stroke="#6a7785" stroke-width="2" fill="none" marker-end="url(#arrow)">
+      <path d="M170 106 H215"/><path d="M335 106 H380"/><path d="M500 106 H545"/><path d="M665 106 H710"/>
+      <path d="M440 130 V205"/><path d="M605 130 V205"/><path d="M440 253 C300 310 160 250 110 130"/>
+    </g>
+  </g>
+  <text x="40" y="320" font-family="Arial, Microsoft YaHei" font-size="16" fill="#506070">异常处理原则：不确定不抓取，失败不强行执行，优先重规划或询问用户。</text>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#6a7785"/></marker></defs>
+</svg>

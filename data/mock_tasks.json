@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rainy_work",
+    "name": "雨天上班出门",
+    "scene": "上班",
+    "inputItems": ["钥匙", "钱包", "耳机"],
+    "weather": "下雨",
+    "traffic": "拥堵",
+    "schedule": "无",
+    "expectedRecommendations": ["雨伞"]
+  },
+  {
+    "id": "meeting_trip",
+    "name": "会议出门",
+    "scene": "会议",
+    "inputItems": ["钥匙", "手机"],
+    "weather": "晴天",
+    "traffic": "缓行",
+    "schedule": "会议",
+    "expectedRecommendations": ["电脑", "文件夹", "证件"]
+  },
+  {
+    "id": "hospital_elder",
+    "name": "老人就医出门",
+    "scene": "就医",
+    "inputItems": ["手机"],
+    "weather": "降温",
+    "traffic": "通畅",
+    "schedule": "就医",
+    "expectedRecommendations": ["药盒", "证件", "眼镜", "外套"]
+  },
+  {
+    "id": "daily_outing",
+    "name": "普通外出",
+    "scene": "普通外出",
+    "inputItems": ["钥匙", "手机", "水杯"],
+    "weather": "晴天",
+    "traffic": "通畅",
+    "schedule": "无",
+    "expectedRecommendations": []
+  }
+]

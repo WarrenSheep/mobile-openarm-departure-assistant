@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="300" viewBox="0 0 980 300" role="img" aria-label="系统总体流程图">
+  <rect width="980" height="300" fill="#f7f8fb"/>
+  <text x="40" y="42" font-size="24" font-family="Arial, Microsoft YaHei" font-weight="700" fill="#1d2733">系统总体流程</text>
+  <g font-family="Arial, Microsoft YaHei" font-size="15" text-anchor="middle">
+    <g fill="#ffffff" stroke="#2f6f73" stroke-width="2">
+      <rect x="35" y="85" width="130" height="62" rx="8"/><rect x="205" y="85" width="130" height="62" rx="8"/>
+      <rect x="375" y="85" width="130" height="62" rx="8"/><rect x="545" y="85" width="130" height="62" rx="8"/>
+      <rect x="715" y="85" width="130" height="62" rx="8"/>
+    </g>
+    <g fill="#1d2733">
+      <text x="100" y="112">用户清单</text><text x="100" y="134">输入</text>
+      <text x="270" y="112">环境与习惯</text><text x="270" y="134">决策</text>
+      <text x="440" y="112">最终清单</text><text x="440" y="134">确认</text>
+      <text x="610" y="112">机器人模拟</text><text x="610" y="134">执行</text>
+      <text x="780" y="112">状态反馈</text><text x="780" y="134">提醒</text>
+    </g>
+    <g stroke="#6a7785" stroke-width="2" fill="none" marker-end="url(#arrow)">
+      <path d="M165 116 H205"/><path d="M335 116 H375"/><path d="M505 116 H545"/><path d="M675 116 H715"/>
+    </g>
+  </g>
+  <text x="40" y="215" font-family="Arial, Microsoft YaHei" font-size="16" fill="#506070">说明：本图展示非实物演示系统的任务闭环，机器人动作均为模拟流程。</text>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#6a7785"/></marker></defs>
+</svg>

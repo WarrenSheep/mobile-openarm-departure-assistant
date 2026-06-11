@@ -1,0 +1,14 @@
+flowchart LR
+    A["用户输入"] --> B["清单解析"]
+    C["mock_items.json"] --> D["物品查询"]
+    E["mock_environment.json"] --> F["环境判断"]
+    G["mock_tasks.json"] --> H["预设任务"]
+    B --> I["任务决策"]
+    D --> I
+    F --> I
+    H --> I
+    I --> J["最终清单"]
+    J --> K["搜索与执行步骤"]
+    K --> L["状态面板"]
+    K --> M["模拟日志"]
+    M --> N["演示页面反馈"]

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>家庭出门物品准备助手演示</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <h1>家庭出门物品准备助手演示</h1>
+        <p>基于 Mobile OpenARM 的系统设计模拟：清单输入、主动建议、机器人作业流程和状态反馈。</p>
+      </div>
+      <span class="badge">非实物演示</span>
+    </header>
+
+    <section class="workspace">
+      <section class="panel control-panel">
+        <h2>任务输入</h2>
+        <label for="itemInput">物品清单</label>
+        <textarea id="itemInput" rows="3">钥匙、钱包、耳机</textarea>
+
+        <div class="grid two">
+          <label>出门场景
+            <select id="sceneSelect">
+              <option>上班</option>
+              <option>会议</option>
+              <option>就医</option>
+              <option>运动</option>
+              <option>普通外出</option>
+            </select>
+          </label>
+          <label>天气
+            <select id="weatherSelect">
+              <option>晴天</option>
+              <option selected>下雨</option>
+              <option>降温</option>
+            </select>
+          </label>
+          <label>交通
+            <select id="trafficSelect">
+              <option>通畅</option>
+              <option>缓行</option>
+              <option selected>拥堵</option>
+            </select>
+          </label>
+          <label>日程
+            <select id="scheduleSelect">
+              <option selected>无</option>
+              <option>会议</option>
+              <option>就医</option>
+              <option>运动</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="actions">
+          <button id="generateBtn">生成任务</button>
+          <button id="runBtn" class="secondary">开始模拟执行</button>
+          <button id="resetBtn" class="ghost">重置</button>
+        </div>
+      </section>
+
+      <section class="panel recommendation-panel">
+        <h2>系统推荐</h2>
+        <div id="recommendations" class="chips"></div>
+        <h3>最终清单</h3>
+        <div id="finalList" class="chips strong"></div>
+        <p id="trafficTip" class="tip"></p>
+      </section>
+    </section>
+
+    <section class="dashboard">
+      <article class="metric"><span id="pendingCount">0</span><p>待处理</p></article>
+      <article class="metric active"><span id="runningCount">0</span><p>执行中</p></article>
+      <article class="metric done"><span id="doneCount">0</span><p>已完成</p></article>
+      <article class="metric warn"><span id="errorCount">0</span><p>异常</p></article>
+    </section>
+
+    <section class="content-grid">
+      <section class="panel">
+        <h2>机器人任务流程</h2>
+        <ol id="taskSteps" class="steps"></ol>
+      </section>
+      <section class="panel">
+        <h2>模拟日志</h2>
+        <ul id="logList" class="logs"></ul>
+      </section>
+    </section>
+
+    <section class="panel architecture">
+      <h2>架构展示</h2>
+      <div class="asset-grid">
+        <a href="../assets/system_overview.svg" target="_blank"><img src="../assets/system_overview.svg" alt="系统总体流程图"><span>系统总体流程</span></a>
+        <a href="../assets/hardware_architecture.svg" target="_blank"><img src="../assets/hardware_architecture.svg" alt="硬件架构图"><span>硬件架构</span></a>
+        <a href="../assets/software_architecture.svg" target="_blank"><img src="../assets/software_architecture.svg" alt="软件架构图"><span>软件架构</span></a>
+        <a href="../assets/demo_scene.svg" target="_blank"><img src="../assets/demo_scene.svg" alt="家庭玄关演示场景"><span>家庭玄关场景</span></a>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

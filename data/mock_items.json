@@ -1,0 +1,134 @@
+[
+  {
+    "id": "keys",
+    "name": "钥匙",
+    "category": "随身物品",
+    "hasTag": true,
+    "tagType": "RFID",
+    "tagId": "RFID-KEY-001",
+    "commonLocations": ["玄关柜", "客厅茶几"],
+    "graspType": "小物体夹取",
+    "priority": 1
+  },
+  {
+    "id": "wallet",
+    "name": "钱包",
+    "category": "随身物品",
+    "hasTag": true,
+    "tagType": "BLE",
+    "tagId": "BLE-WALLET-002",
+    "commonLocations": ["玄关托盘", "卧室床头柜", "客厅茶几"],
+    "graspType": "扁平物体夹取",
+    "priority": 1
+  },
+  {
+    "id": "phone",
+    "name": "手机",
+    "category": "电子设备",
+    "hasTag": false,
+    "tagType": "无",
+    "tagId": "",
+    "commonLocations": ["餐桌", "卧室床头柜", "沙发边几"],
+    "graspType": "薄片物体夹取",
+    "priority": 1
+  },
+  {
+    "id": "earphones",
+    "name": "耳机",
+    "category": "电子设备",
+    "hasTag": true,
+    "tagType": "BLE",
+    "tagId": "BLE-EAR-003",
+    "commonLocations": ["书桌", "玄关柜", "背包侧袋"],
+    "graspType": "小物体夹取",
+    "priority": 2
+  },
+  {
+    "id": "umbrella",
+    "name": "雨伞",
+    "category": "天气用品",
+    "hasTag": true,
+    "tagType": "RFID",
+    "tagId": "RFID-UMB-004",
+    "commonLocations": ["玄关伞架", "门后挂钩"],
+    "graspType": "长条物体夹取",
+    "priority": 2
+  },
+  {
+    "id": "glasses",
+    "name": "眼镜",
+    "category": "个人用品",
+    "hasTag": false,
+    "tagType": "无",
+    "tagId": "",
+    "commonLocations": ["卧室床头柜", "书桌"],
+    "graspType": "易碎物品谨慎夹取",
+    "priority": 1
+  },
+  {
+    "id": "medicine_box",
+    "name": "药盒",
+    "category": "健康用品",
+    "hasTag": true,
+    "tagType": "NFC",
+    "tagId": "NFC-MED-006",
+    "commonLocations": ["餐边柜", "卧室床头柜"],
+    "graspType": "小盒体夹取",
+    "priority": 1
+  },
+  {
+    "id": "folder",
+    "name": "文件夹",
+    "category": "办公用品",
+    "hasTag": false,
+    "tagType": "无",
+    "tagId": "",
+    "commonLocations": ["书桌", "书架"],
+    "graspType": "薄片物体夹取",
+    "priority": 2
+  },
+  {
+    "id": "laptop",
+    "name": "电脑",
+    "category": "电子设备",
+    "hasTag": true,
+    "tagType": "UWB",
+    "tagId": "UWB-LAP-008",
+    "commonLocations": ["书桌", "工作包"],
+    "graspType": "大件物品需用户确认",
+    "priority": 2
+  },
+  {
+    "id": "id_card",
+    "name": "证件",
+    "category": "重要证件",
+    "hasTag": true,
+    "tagType": "NFC",
+    "tagId": "NFC-ID-009",
+    "commonLocations": ["钱包", "玄关抽屉"],
+    "graspType": "薄片物体夹取",
+    "priority": 1
+  },
+  {
+    "id": "water_bottle",
+    "name": "水杯",
+    "category": "生活用品",
+    "hasTag": false,
+    "tagType": "无",
+    "tagId": "",
+    "commonLocations": ["餐桌", "厨房台面"],
+    "graspType": "圆柱物体夹取",
+    "priority": 3
+  },
+  {
+    "id": "coat",
+    "name": "外套",
+    "category": "衣物",
+    "hasTag": false,
+    "tagType": "无",
+    "tagId": "",
+    "commonLocations": ["玄关衣架", "卧室衣柜"],
+    "graspType": "柔性物品需用户协助",
+    "priority": 2
+  }
+]

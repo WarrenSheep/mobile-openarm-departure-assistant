@@ -1,0 +1,24 @@
+{
+  "weatherOptions": [
+    { "id": "sunny", "name": "晴天", "temperature": 24, "rainProbability": 5, "recommendations": [] },
+    { "id": "rainy", "name": "下雨", "temperature": 20, "rainProbability": 85, "recommendations": ["雨伞"] },
+    { "id": "cold", "name": "降温", "temperature": 9, "rainProbability": 15, "recommendations": ["外套"] }
+  ],
+  "trafficOptions": [
+    { "id": "smooth", "name": "通畅", "delayMinutes": 0, "message": "当前路况通畅。" },
+    { "id": "slow", "name": "缓行", "delayMinutes": 8, "message": "当前路况缓行，建议预留时间。" },
+    { "id": "jam", "name": "拥堵", "delayMinutes": 15, "message": "当前路况拥堵，建议提前 15 分钟出门。" }
+  ],
+  "scheduleOptions": [
+    { "id": "none", "name": "无", "recommendations": [] },
+    { "id": "meeting", "name": "会议", "recommendations": ["电脑", "文件夹", "证件"] },
+    { "id": "hospital", "name": "就医", "recommendations": ["药盒", "证件", "眼镜"] },
+    { "id": "sports", "name": "运动", "recommendations": ["水杯", "耳机"] }
+  ],
+  "habitRules": [
+    { "scene": "上班", "items": ["钥匙", "钱包", "手机", "耳机"], "weight": 0.82 },
+    { "scene": "会议", "items": ["电脑", "文件夹", "证件"], "weight": 0.76 },
+    { "scene": "就医", "items": ["药盒", "眼镜", "证件"], "weight": 0.88 },
+    { "scene": "运动", "items": ["水杯", "耳机"], "weight": 0.69 }
+  ]
+}

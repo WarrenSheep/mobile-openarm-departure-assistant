@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="420" viewBox="0 0 980 420" role="img" aria-label="硬件架构图">
+  <rect width="980" height="420" fill="#f6f9f8"/>
+  <text x="40" y="42" font-size="24" font-family="Arial, Microsoft YaHei" font-weight="700" fill="#1d2733">硬件架构</text>
+  <g font-family="Arial, Microsoft YaHei" text-anchor="middle">
+    <rect x="390" y="160" width="200" height="88" rx="10" fill="#2f6f73"/>
+    <text x="490" y="197" font-size="18" fill="#fff">Mobile OpenARM</text><text x="490" y="222" font-size="14" fill="#e9ffff">移动操作平台</text>
+    <g fill="#fff" stroke="#2f6f73" stroke-width="2" font-size="14">
+      <rect x="60" y="90" width="150" height="52" rx="8"/><rect x="60" y="220" width="150" height="52" rx="8"/>
+      <rect x="250" y="90" width="150" height="52" rx="8"/><rect x="250" y="290" width="150" height="52" rx="8"/>
+      <rect x="580" y="90" width="150" height="52" rx="8"/><rect x="580" y="290" width="150" height="52" rx="8"/>
+      <rect x="770" y="160" width="150" height="52" rx="8"/>
+    </g>
+    <g font-size="14" fill="#1d2733">
+      <text x="135" y="121">移动底盘</text><text x="135" y="251">安全传感器</text><text x="325" y="121">机械臂与夹爪</text>
+      <text x="325" y="321">RGB-D 相机</text><text x="655" y="121">电子标签读取</text><text x="655" y="321">计算单元</text><text x="845" y="191">交互设备</text>
+    </g>
+    <g stroke="#6a7785" stroke-width="2" fill="none">
+      <path d="M210 116 L390 178"/><path d="M210 246 L390 220"/><path d="M400 116 L450 160"/><path d="M400 316 L455 248"/>
+      <path d="M580 116 L535 160"/><path d="M580 316 L535 248"/><path d="M770 186 L590 202"/>
+    </g>
+  </g>
+</svg>
